@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog Page</title>
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo Image -->
+
+            <!-- Logo -->
+            <a href="#" class="logo"><img src="images/Shopify-Logo.png" alt=""
+                    class="logo-image">sho<span>pify</span></a>
+            <!-- Login Button-->
+            <a href="#" class="login">SignUp for NewsLetter</a>
+        </div>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">The Shopify Blog</h2>
+            <span class="home-subtitle">Content is the reason search began in the first place</span>
+        </div>
+    </section>
+    <!-- Blog filter-->
+    <div class="blog-filter container">
+        <span class="filter-item active-filter" data-filter='all'>All</span>
+        <span class="filter-item" data-filter='health'>Health</span>
+        <span class="filter-item" data-filter='technology'>Technology</span>
+    </div>
+    <!-- Blogs -->
+    <section class="blog container">
+        <!-- Blog 1 -->
+        <div class="blog-box health">
+            <a href="blogPage.html"><img src="images/blog.jpg" alt="" class="blog-img"></a>
+            <h2 class="category">Health</h2>
+            <a href="blogPage.html" class="blog-title">
+                What is Menopause?
+            </a>
+            <span class="blog-date">6 July 2023</span>
+            <p class="blog-description">Women have always been known to have great intuition, especially when it comes
+                to their body reacting to certain conditions - emotionally, mentally or physically.
+                These “feelings” tend to get “out of control” during specific phases of our life, the kind that we see
+                in movies but have not explicitly discussed before it happens.
+                We start to sense a shift in the way our body works; drastic mood swings with frequent tears or
+                outbursts.</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="images/profile-image1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Shivani Pandey</span>
+            </div>
+        </div>
+        <!-- Blog 2 -->
+        <div class="blog-box technology">
+            <a href="blogPage2.html"><img src="images/AIBlog2.jpg" alt="" class="blog-img"></a>
+            <h2 class="category">Technology</h2>
+            <a href="blogPage2.html" class="blog-title">
+                Identity and Artificial Intelligence
+            </a>
+            <span class="blog-date">6 July 2023</span>
+            <p class="blog-description">We hear “AI has both a bright side and a dark side. We should enhance the former
+                and weaken the latter for developing responsible AI”</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="images/profile-image1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Shivani Pandey</span>
+            </div>
+        </div>
+        <!-- Blog 3 -->
+        <div class="blog-box health">
+            <a href="blogPage3.html"><img src="images/blog3.png" alt="" class="blog-img"></a>
+            <h2 class="category">Health</h2>
+            <a href="blogPage3.html" class="blog-title">
+                Millennials, Live-Life-App-Wise!
+            </a>
+            <span class="blog-date">6 July 2023</span>
+            <p class="blog-description">Life was going pretty much smooth for him, working 5-days a week, jamming with
+                friends over the weekends, partying till wee hours & eating junk food to his heart’s content 🤪🤪 “</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="images/profile-image1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Shivani Pandey</span>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer container">
+        <p>&#169; Shopify All Right Reserved</p>
+        <div class="social">
+            <a href=""><i class='bx bxl-facebook-circle'></i></a>
+            <a href=""><i class='bx bxl-instagram-alt'></i></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+            <a href=""><i class='bx bxl-linkedin-square'></i></i></a>
+        </div>
+    </div>
+    <!-- Link to JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+    <!--Link to JS-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
